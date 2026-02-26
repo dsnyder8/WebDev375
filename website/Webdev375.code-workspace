@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "Webdev375",
+		"path": ".."
+	},
+	{
+		"name": "CreativeCodingFinal",
+		"path": "../../../CreativeCodingFinal"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Webdev375"
+  }
+}

@@ -1,0 +1,73 @@
+table {
+  background-color: #333;
+  color: white;
+}
+tbody {
+  background-color: black;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  color: green;
+  font-size: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title {
+  color: purple;
+  background-color: green;
+  font-size: 50px;
+  font-family: consolas, "Courier New", monospace;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.important {
+  color: rgb(28, 131, 117);
+  font-size: 25px;
+  font-family: consolas, "Courier New", monospace;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+a:link {
+  color: blue;
+}
+
+.text {
+  color: var(--main-color);
+  padding: var(--panel-padding);
+}
+
+.image-container {
+  float: left;
+  display: flow-root;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 20px;
+  padding: 10px;
+}
+
+.tft-image-container {
+  float: left;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: solid;
+}
+.layout {
+  display: flex;
+  gap: 20px;
+}
+.side-bar-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: black;
+}
